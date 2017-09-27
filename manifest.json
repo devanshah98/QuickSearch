@@ -1,0 +1,18 @@
+{
+	"name": "QuickSearch",
+	"version": "0.2",
+	"description": "",
+	"author":"Devan Shah",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "!bang",
+		"default_popup": "pp.html"
+	},
+	"background":{
+		"scripts":["bg.js"]
+	},
+	"icons":{ "256": "icon.png"},
+	"omnibox":{"keyword":"#"},
+	"permissions":["tabs"],
+	"manifest_version": 2
+}
